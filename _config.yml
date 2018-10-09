@@ -1,9 +1,62 @@
-theme: jekyll-theme-minimal
-plugins:
- - jekyll-feed
- - jekyll-redirect-from
- - jekyll-seo-tag
- - jekyll-sitemap
- - jekyll-avatar
- - jekyll-mentions
- - jekyll-include-cache
+name: Furó Tamás-Márk
+
+description: Software Engineer
+
+avatar: https://avatars2.githubusercontent.com/u/1783160?s=400&v=4
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  #email:
+  #facebook:
+  #flickr:
+  github: furotmark
+  #instagram:
+  linkedin: tamás-márk-furó-31a49a49
+  #pinterest:
+  rss: rss
+  twitter: furoTmark
+  stackoverflow: users/1099343/dare2k
+  #youtube: # channel/<your_long_string> or user/<user-name>
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus:
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+# Used for Sitemap.xml and your RSS feed
+url: "https://furotmark.github.io"
+
+baseurl: "https://furotmark.github.io"
+
+permalink: /:title/
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
