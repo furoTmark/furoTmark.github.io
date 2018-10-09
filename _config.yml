@@ -1,1 +1,9 @@
 theme: jekyll-theme-minimal
+plugins:
+ - jekyll-feed
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jekyll-mentions
+ - jekyll-include-cache
