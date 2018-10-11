@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Up and running!
-comments: false
+comments: true
 ---
 
 Jekyll is up and running!
