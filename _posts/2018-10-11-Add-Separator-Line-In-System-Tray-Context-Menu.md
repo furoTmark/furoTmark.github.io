@@ -31,7 +31,7 @@ systemTrayIcon.MouseDown += (sender, e) =>
     {
         if (e.Button == MouseButtons.Left)
         {
-            MethodInfo mi = typeof(NotifyIcon).GetMethod("ShowContextMenu",                         BindingFlags.Instance | BindingFlags.NonPublic);
+            MethodInfo mi = typeof(NotifyIcon).GetMethod("ShowContextMenu", BindingFlags.Instance | BindingFlags.NonPublic);
             if (mi != null)
             {
                 mi.Invoke(systemTrayIcon, null);
