@@ -19,11 +19,11 @@ When creating a ***ContextMenu*** programatically, this class only accepts ***Me
     <img src="{{ site.baseurl }}/images/posts/menuItemSeparator.png" alt="Menu Item Separator Example"/>
 </p>
 
-**Note:** *If you want a second separator or multiple separators, you need to create new MenuItem object for each separator. The separator object cannot be reused. Reusing the object will result in only one Separator as the ContextMenu will filter out the duplicates.*
+**Note:** *If you want a second separator or multiple separators, you need to create a new MenuItem object for each separator. The separator object cannot be reused. Reusing the object will result in only one Separator as the ContextMenu will filter out the duplicates.*
 
 # Bonus tip: Adding Context Menu to Left Mouse Click
 
-The context menu is activated by default only on right mouse click. Unfortunately the ***ShowContextMenu*** method is defined as private in the *.NET* framework (See [.NET Reference Source](https://referencesource.microsoft.com/#System.Windows.Forms/winforms/Managed/System/WinForms/NotifyIcon.cs,fc0e2a272ada0b8f,references)) so it cannot be called on the MouseDown action. One solution to resolve this issue, the private method must be invoked like this.
+The context menu is activated by default only on right mouse click. Unfortunately the ***ShowContextMenu*** method is defined as private in the *.NET* framework (See [.NET Reference Source](https://referencesource.microsoft.com/#System.Windows.Forms/winforms/Managed/System/WinForms/NotifyIcon.cs,fc0e2a272ada0b8f,references)) so it cannot be called on the MouseDown action. One solution to resolve this issue: the private method must be invoked like this.
 
 ```csharp
 var systemTrayIcon = new NotifyIcon();
