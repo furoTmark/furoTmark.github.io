@@ -1,5 +1,5 @@
 ---
 layout: tagpage
 title: "Tag: .NET"
-tag: .net
+tag: NET
 ---
