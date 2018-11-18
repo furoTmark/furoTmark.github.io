@@ -2,7 +2,7 @@
 layout: post
 title: Add Separator Line In System Tray Context-Menu Programatically
 comments: true
-tags: NET dotNET c# WPF System-Tray-Icon
+tags: net dotNET c# WPF System-Tray-Icon
 ---
 
 When creating a ***ContextMenu*** programatically, this class only accepts ***MenuItem*** items. Adding a ***Separator*** ( ***< Separator />*** ) as one would do in *XAML* does not work. To add a separator line is actually quite easy, but you have to know to create a ***MenuItem*** with the parameter ***"-*"** as string.
