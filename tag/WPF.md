@@ -1,7 +1,7 @@
 ---
 layout: tagpage
-title: "Tag: net"
-tag: net
+title: "Tag: WPF"
+tag: WPF
 robots: noindex
 ---
 
