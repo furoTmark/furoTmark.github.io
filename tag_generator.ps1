@@ -44,7 +44,7 @@ New-Item -Path ".\$tagDir" -ItemType directory
 
 foreach($tag in $total_tags){
     $tag_filename = ".\$tagDir\$tag.md"
-    $write_str = '---' + $newLine + 'layout: tagpage' + $newLine + 'title: Tag: ' + $tag + $newLine +'tag: ' + $tag + $newLine +'robots: noindex' + $newLine + '---' + $newLine 
+    $write_str = '---' + $newLine + 'layout: tagpage' + $newLine + 'title: "Tag: ' + $tag + '"' + $newLine +'tag: ' + $tag + $newLine +'robots: noindex' + $newLine + '---' + $newLine 
     Set-Content -Value $write_str -Path $tag_filename
 }
 
