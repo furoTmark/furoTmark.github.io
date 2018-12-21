@@ -30,6 +30,7 @@ foreach($Item in $(Get-Childitem –Path ".\$postDir" -Include *.md -Recurse))
             if(-not $crawl ){
                 $crawl=$true
             }else{
+                $crawl=$false
                 Write-Host No tags found -ForegroundColor Green
                 break
             }
