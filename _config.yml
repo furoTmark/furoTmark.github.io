@@ -26,9 +26,9 @@ disqus: furotmark
 google_analytics: UA-131215313-1
 
 # Used for Sitemap.xml and your RSS feed
-#url: "https://furotmark.github.io"
+url: "https://furotmark.github.io"
 
-baseurl: "https://furotmark.github.io"
+#baseurl: "https://furotmark.github.io"
 
 permalink: /:title/
 # The release of Jekyll Now that you're using
