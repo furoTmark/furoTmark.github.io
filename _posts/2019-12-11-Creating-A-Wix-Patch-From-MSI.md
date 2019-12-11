@@ -78,23 +78,23 @@ NewInstaller.wixpdb
 
 #### 1. Correct the .wixpdb with the help of Melt
 
-```cmd
+```shell
 Melt.exe OldInstaller.msi -out old\OldInstallerCorrected.wixpdb -pdb OldInstaller.wixpdb -x old\OldInstallerContent
 ```
 
-```cmd
+```shell
 Melt.exe NewInstaller.msi -out new\NewInstallerCorrected.wixpdb -pdb NewInstaller.wixpdb -x new\NewInstallerContent
 ```
 
 #### 2. Create the transform between your products with the help of Torch
 
-```cmd
+```shell
 torch.exe -p -xi old\OldInstallerCorrected.wixpdb new\NewInstallerCorrected.wixpdb -out diff.wixmst
 ```
 
 #### 3. Build the patch
 
-```cmd
+```shell
 candle.exe patch.wxs
 light.exe patch.wixobj -out patch.wixmsp
 pyro.exe patch.wixmsp -out patch.msp -t patch diff.wixmst
