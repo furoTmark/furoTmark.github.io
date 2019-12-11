@@ -21,7 +21,7 @@ foreach($Item in $(Get-Childitem –Path ".\$postDir" -Include *.md -Recurse))
             if($current_tags[0] -eq "tags:"){
                 $total_tags += $current_tags[1..($current_tags.Length-1)]
                 Write-Host Tags found: $total_tags -ForegroundColor Green
-                $crawl=false
+                $crawl=$false
                 break
             }
 

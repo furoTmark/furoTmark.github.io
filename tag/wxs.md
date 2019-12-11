@@ -1,7 +1,7 @@
 ---
 layout: tagpage
-title: "Tag: dotNET"
-tag: dotNET
+title: "Tag: wxs"
+tag: wxs
 robots: noindex
 ---
 
