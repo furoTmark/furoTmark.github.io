@@ -79,12 +79,14 @@ NewInstaller.wixpdb
 #### 1. Correct the .wixpdb with the help of Melt
 
 ```shell
-Melt.exe OldInstaller.msi -out old\OldInstallerCorrected.wixpdb -pdb OldInstaller.wixpdb -x old\OldInstallerContent
+Melt.exe OldInstaller.msi -out old\OldInstallerCorrected.wixpdb -pdb OldInstaller.wixpdb -x old\OldInstallerContent -xn
 ```
 
 ```shell
-Melt.exe NewInstaller.msi -out new\NewInstallerCorrected.wixpdb -pdb NewInstaller.wixpdb -x new\NewInstallerContent
+Melt.exe NewInstaller.msi -out new\NewInstallerCorrected.wixpdb -pdb NewInstaller.wixpdb -x new\NewInstallerContent -xn
 ```
+
+The parameter -xn exports contents of File, Binary, and Icon tables to subdirectories to support patching all types of files. It is important if you have Custom Actions defined in other *.CA.dll(s).
 
 #### 2. Create the transform between your products with the help of Torch
 
@@ -111,3 +113,6 @@ Sources:
 [WiX Documentation](https://wixtoolset.org/documentation/manual/v3/overview/alltools.html)  
 [Using Purely Wix](https://wixtoolset.org/documentation/manual/v3/patching/wix_patching.html)  
 Nick Ramirez - WiX 3.6 A Developer's Guide to Windows Installer XML (2012)
+
+Updated:
+17.01.2020 - Updated Melt command, when custom action dll is also used.
