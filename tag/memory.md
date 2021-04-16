@@ -1,7 +1,7 @@
 ---
 layout: tagpage
-title: "Tag: dotnet"
-tag: dotnet
+title: "Tag: memory"
+tag: memory
 robots: noindex
 ---
 

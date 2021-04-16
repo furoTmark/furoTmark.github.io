@@ -1,7 +1,7 @@
 ---
 layout: tagpage
-title: "Tag: dotnet"
-tag: dotnet
+title: "Tag: images"
+tag: images
 robots: noindex
 ---
 
