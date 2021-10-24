@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Furó Tamás-Márk
 tagline:          'Software Engineer'
-description:      'aa'
+description:      'Software Engineer'
 url:              https://furotmark.github.io
 #baseurl:          '/hydeout'
                   # the optional subpath of your site, e.g. "/blog"
@@ -45,3 +45,6 @@ google_analytics: UA-131215313-1
 
 theme: hydeout
 remote_theme: fongandrew/hydeout
+
+hydeout:
+  repo: https://furotmark.github.io
