@@ -64,3 +64,8 @@ For Mobile platform issues, using Xamarin as a keyword worked better.
 There are already uno platform-specific questions on Stackoverflow, but there are still just a few compared to the older technologies.
 
 Besides this, there are new and new technical blog posts showing up, and they have a really active discord channel that you should check out if you run into a problem.
+
+## Usefull links
+* [Uno platform](https://platform.uno/)
+* [Uno Youtube channel](https://www.youtube.com/channel/UC8GkqD6hsSkwYof6n2Wk1hg) with a lot of good tutorials and streams
+* [Discord](https://discord.gg/eBHZSKG) under the **#uno-platform** channel
