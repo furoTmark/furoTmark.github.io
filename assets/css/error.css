@@ -45,7 +45,7 @@ body:after {
   left: 0;
   right: 35%;
   opacity: 0;
-  color: rgb(134, 131, 131);
+  color: rgb(134, 131, 131)
   -webkit-animation: noise-1 .2s linear infinite;
           animation: noise-1 .2s linear infinite;
 }
@@ -63,7 +63,7 @@ body:before {
   left: 0;
   right: 35%;
   opacity: 0;
-  color: white;
+  color: rgb(134, 131, 131)
   -webkit-animation: noise-2 .2s linear infinite;
           animation: noise-2 .2s linear infinite;
 }
@@ -95,7 +95,7 @@ body:before {
   left: 40px;
   right: 100px;
   opacity: 0;
-  color: white;
+  color: rgb(134, 131, 131)
   -webkit-animation: noise-2 .2s linear infinite;
           animation: noise-2 .2s linear infinite;
 }
@@ -113,7 +113,7 @@ body:before {
   left: 40px;
   right: 0;
   opacity: 0;
-  color: white;
+  color: rgb(134, 131, 131)
   -webkit-animation: noise-1 .2s linear infinite;
           animation: noise-1 .2s linear infinite;
 }
