@@ -20,6 +20,10 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
   {% include font-includes.html %}
 
+  {% if page.title == "404: Page not found" %}
+    <link rel="stylesheet" href="{{ "/assets/css/error.css" | relative_url }}" />
+  {% endif %}
+
   <!-- Icons -->
   {% include favicons.html %}
 
