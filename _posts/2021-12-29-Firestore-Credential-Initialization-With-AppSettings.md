@@ -5,15 +5,15 @@ comments: true
 tags: c# firestore firebase dotnet net google credential authentication
 ---
 
-Using firestore for a storing data for a C# project is a great way to have a free cloud based database for your project.
+Using Firestore to store data for a C# project is a great way to have a free cloud-based database for your project.
 
-Their limits are quite generous for a POC or a small project. But beware that their C#/.NET documentation is limited to simple cases.
+Their limits are pretty generous for a POC or a small project. But beware that their C#/.NET documentation is limited to simple cases.
 
-This is why I created this post to explain how to initialize a firestore credential with using appsettings.json. 
+This is why I created this post to explain how to initialize a Firestore credential using _appsettings.json_.
 
-The google way can be found [here](https://cloud.google.com/firestore/docs/quickstart-servers#c). Here the recommendation is to download the credentials json file and set it as path in an environment variable. As it is a JSON with credential information, I found it better to use these keys form appsettings.json and set them during my build. This way I do not need to store a this sensitive information as a file somewhere, then inject it into my container and set the environment variable.
+The google way can be found [here](https://cloud.google.com/firestore/docs/quickstart-servers#c). Here the recommendation is to download the credentials JSON file and set it as the path in an environment variable. As it is a JSON with credential information, I found it better to use these keys from appsettings.json and set them during my build. This way, I do not need to store this sensitive information as a file somewhere, then inject it into my container and set the environment variable.
 
-To do this the first step is to get the credential information. For this I followed the steps from the [official guide](https://cloud.google.com/firestore/docs/quickstart-servers#set_up_authentication). After getting the credential information I extended my appsettings.json with the following:
+The first step is to get the credential information. For this, I followed the steps from the [official guide](https://cloud.google.com/firestore/docs/quickstart-servers#set_up_authentication). After getting the credential information, I extended my appsettings.json with the following:
 
 ```json
 {
@@ -33,9 +33,9 @@ To do this the first step is to get the credential information. For this I follo
 }
 ```
 
-These values are set from my build process. For development, using the _appsettings.Development.json_ file, I insert the values. This file should not be checked in to source control (git,svn,etc).
+These values are set from my build process. For development, I am using the _appsettings.Development.json_ file, I insert the values. This file should not be checked into source control (git, svn, etc).
 
-Next I created a new helper class that reads these values from the appsettings.json file and can create the necessary json string for intializing the firestore client.
+Next, I created a new helper class that reads these values from the appsettings.json file and can make the necessary JSON string for initializing the Firestore client.
 
 ```csharp
 public class FirestoreCredentialInitializer
@@ -98,11 +98,11 @@ public class FirestoreCredentialInitializer
     }
 ```
 
-Notice there are 2 ways to initialize this class. The first way is to use the injected IConfiguration service and get the values from the appsettings.json. The second way is to use the constructor with the parameters, this is useful if we want a special initialization for a specific part of the application, maybe unit testing.
+Notice there are two ways to initialize this class. The first way is to use the injected IConfiguration service and get the values from the appsettings.json. The second way is to use the constructor with the parameters; this is useful if we want a special initialization for a specific part of the application, maybe unit testing.
 
-After having this class, I use it in my implementation as an injected service. That way I can inject it to the constructor of the class that needs it.
+After this class, I used it as an injected service in my implementation. That way, I can inject it into the class's constructor that needs it.
 
-The next code block is an example how can the Firestore be initialized this way using just the credential information without setting the path to a file.
+The following code block is an example of how the Firestore be initialized using just the credential information without setting the path to a file.
 
 ```csharp
         public FirestoreRepository(FirestoreCredentialInitializer firestoreCredential)
@@ -117,7 +117,7 @@ The next code block is an example how can the Firestore be initialized this way 
         }
 ```
 
-Finally an example of a get request from the database. 
+Finally an example of a get request from the database.
 
 ```csharp
                 Query query = _db.Collection(CollectionName);
