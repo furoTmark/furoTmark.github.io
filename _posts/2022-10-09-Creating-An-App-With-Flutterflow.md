@@ -18,11 +18,11 @@ Not long ago I was commissioned to create a small Mobile Application. After some
 With these requirements I started to look for options to develop this application. Creating it natively for two platforms was out of the question. It was just too much overhead to create it in two languages with their own frameworks. Next options were the build once publish to all devices options. Here came React.Native, Ionic, Flutter, Xamarin (.NET MAUI), Uno Platform etc. I am a versed .NET developer and played around with Xamarin and Uno before, but was also keen on trying out something new. Flutter seemed to be the right candidate, but after looking into it, it would have taken a lot of time to learn the quirks of the platform + language, time I didn't have.
 
 <p align="center">
-    <img src="{{ site.baseurl }}/images/flutterflow/react.png" height="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/ionic.png" height="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/maui.png" height="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/flutter.png" height="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/uno.png" height="100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/react.png" class="imgHeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/ionic.png" class="imgHeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/maui.png" class="imgHeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/flutter.png" class="imgHeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/uno.png" class="imgHeight100"/>
 </p>
 
 
@@ -35,7 +35,7 @@ As no-code products are on the rise, this one provides a service that can achiev
 The editor layout is pretty normal and straight forward for developers, but also not overcomplicated for newcomers. Users can easily change between different screen sizes that render the screens instantly to that format. Here multiple example devices are show, but custom size can also be selected. In the same row errors can also be visualised, but that only changes if custom code is applied. You can also view the application and there is an option to _publish_ it for a test view that can be shared with clients. Building these take up a few minutes, but were very helpful while building the app.
 
 <p align="center">
-    <img src="{{ site.baseurl }}/images/flutterflow/tobBar.png"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/topBar.png"/>
 </p>
 
 From the sidebar other options can be accessed like the widgets, pages, custom functions settings etc. The tree of a built page is shown really similar to Visual Studio WPF trees. Navigating between the components, adding, hiding, sizing, moving is a breeze with the options readily available in the editor. There are separate tabs for events and animations. These somehow feel like how you set the animations in Powerpoint, maybe more easy to set.
@@ -67,8 +67,8 @@ Flutterflow is a good piece of software, it isn't perfect and it certainly can g
 ### The final app
 
 <p align="center">
-    <img src="{{ site.baseurl }}/images/flutterflow/1.png" width="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/2.png" width="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/3.png" width="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/4.png" width="100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/1.png" class="imgWeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/2.png" class="imgWeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/3.png" class="imgWeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/4.png" class="imgWeight100"/>
 </p>
