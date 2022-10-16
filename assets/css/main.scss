@@ -5,12 +5,4 @@
 
 $large-font-size: 2.5rem;
 
-@import "hydeout";
-
-.imgHeight100{
-    height: 100px;
-}
-
-.imgWeight100{
-    width: 100px;
-}
+@import "hydeout", "custom";

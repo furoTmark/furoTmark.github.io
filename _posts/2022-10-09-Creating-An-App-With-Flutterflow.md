@@ -35,7 +35,7 @@ As no-code products are on the rise, this one provides a service that can achiev
 The editor layout is pretty normal and straight forward for developers, but also not overcomplicated for newcomers. Users can easily change between different screen sizes that render the screens instantly to that format. Here multiple example devices are show, but custom size can also be selected. In the same row errors can also be visualised, but that only changes if custom code is applied. You can also view the application and there is an option to _publish_ it for a test view that can be shared with clients. Building these take up a few minutes, but were very helpful while building the app.
 
 <p align="center">
-    <img src="{{ site.baseurl }}/images/flutterflow/tobBar.png"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/topBar.png"/>
 </p>
 
 From the sidebar other options can be accessed like the widgets, pages, custom functions settings etc. The tree of a built page is shown really similar to Visual Studio WPF trees. Navigating between the components, adding, hiding, sizing, moving is a breeze with the options readily available in the editor. There are separate tabs for events and animations. These somehow feel like how you set the animations in Powerpoint, maybe more easy to set.
