@@ -1,0 +1,9 @@
+.imgHeight100{
+    height: 100px;
+    display: unset;
+}
+
+.imgWeight100{
+    width: 100px;
+    display: unset;
+}
