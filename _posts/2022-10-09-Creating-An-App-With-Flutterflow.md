@@ -18,11 +18,11 @@ Not long ago I was commissioned to create a small Mobile Application. After some
 With these requirements I started to look for options to develop this application. Creating it natively for two platforms was out of the question. It was just too much overhead to create it in two languages with their own frameworks. Next options were the build once publish to all devices options. Here came React.Native, Ionic, Flutter, Xamarin (.NET MAUI), Uno Platform etc. I am a versed .NET developer and played around with Xamarin and Uno before, but was also keen on trying out something new. Flutter seemed to be the right candidate, but after looking into it, it would have taken a lot of time to learn the quirks of the platform + language, time I didn't have.
 
 <p align="center">
-    <img src="{{ site.baseurl }}/images/flutterflow/react.png" height="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/ionic.png" height="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/maui.png" height="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/flutter.png" height="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/uno.png" height="100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/react.png" class="imgHeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/ionic.png" class="imgHeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/maui.png" class="imgHeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/flutter.png" class="imgHeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/uno.png" class="imgHeight100"/>
 </p>
 
 
@@ -67,8 +67,8 @@ Flutterflow is a good piece of software, it isn't perfect and it certainly can g
 ### The final app
 
 <p align="center">
-    <img src="{{ site.baseurl }}/images/flutterflow/1.png" width="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/2.png" width="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/3.png" width="100"/>
-    <img src="{{ site.baseurl }}/images/flutterflow/4.png" width="100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/1.png" class="imgWeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/2.png" class="imgWeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/3.png" class="imgWeight100"/>
+    <img src="{{ site.baseurl }}/images/flutterflow/4.png" class="imgWeight100"/>
 </p>
