@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Furó Tamás-Márk
 tagline:          'Software Engineer'
-description:      'Software Engineer'
+description:      'Software Engineer blog'
 url:              https://furotmark.github.io
 #baseurl:          '/hydeout'
                   # the optional subpath of your site, e.g. "/blog"
@@ -18,6 +18,10 @@ author:
   name:           'Furó Tamás-Márk'
   url:            https://twitter.com/furoTmark
 
+twitter:
+  username: furoTmark
+  card: summary
+
 paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
@@ -27,6 +31,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Sidebar link settings
 sidebar_home_link:  true
