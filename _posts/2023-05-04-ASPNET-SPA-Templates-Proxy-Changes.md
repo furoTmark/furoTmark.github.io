@@ -13,5 +13,4 @@ tags: asp.net dotnet proxy spa template react angular
 - Using Microsoft’s reverse proxy solution Yarp with the SpaYarp package is still a viable alternative.
 - The .NET 6 changes also apply to the following versions.
 
-Read the full article on InfoQ:
-https://www.infoq.com/articles/dotnet-spa-templates-proxy/
+Read the full article on InfoQ: [https://www.infoq.com/articles/dotnet-spa-templates-proxy/](https://www.infoq.com/articles/dotnet-spa-templates-proxy/)
