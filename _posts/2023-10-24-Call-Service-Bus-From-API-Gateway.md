@@ -21,7 +21,7 @@ For secure message transmission between APIM and Service Bus, proper authenticat
 
     2a. In the Azure Service Bus resource, navigate to the **Access Control** menu, then select **Role Assignments** and click **Add**.
 
-    2b. From the **Role** tab, assign roles such as _Azure Service Bus Data Receiver_ and/or A_zure Service Bus Data Sender_.
+    2b. From the **Role** tab, assign roles such as _Azure Service Bus Data Receiver_ and/or _Azure Service Bus Data Sender_.
 
     2c. In the **Assign access to** group, specify the Managed identity from the available options and select the relevant API Management service.
 
