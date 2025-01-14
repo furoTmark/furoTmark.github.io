@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Rămâi conectat în străinătate: Ajustarea setărilor de rețea în destinații exotice (RO)
+title: Rămâi conectat în străinătate: Ajustarea setărilor de rețea în destinații exotice
 comments: true
 tags: digi rcs rds network 3g 4g 5g
 ---
+
+[RO]
 
 Călătoria într-o destinație exotică poate fi o aventură palpitantă. De la explorarea unor culturi noi până la descoperirea unor locuri ascunse, există atât de multe lucruri de așteptat. Totuși, o provocare neașteptată poate să îți complice planurile: menținerea conexiunii la rețeaua mobilă. În unele țări, tipurile de rețea disponibile (de exemplu, 5G, 4G sau 3G) pot diferi de ceea ce ești obișnuit acasă. Cunoașterea modului de ajustare a setărilor de rețea ale dispozitivului tău te poate scuti de frustrarea de a rămâne fără semnal.
 
