@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rămâi conectat în străinătate: Ajustarea setărilor de rețea în destinații exotice
+title: Ajustarea setărilor de rețea în destinații exotice
 comments: true
 tags: digi rcs rds network 3g 4g 5g
 ---
