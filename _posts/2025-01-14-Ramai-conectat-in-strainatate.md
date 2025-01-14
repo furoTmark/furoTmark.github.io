@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [RO] Rămâi conectat în străinătate: Ajustarea setărilor de rețea în destinații exotice
+title: Rămâi conectat în străinătate: Ajustarea setărilor de rețea în destinații exotice (RO)
 comments: true
 tags: digi rcs rds network 3g 4g 5g
 ---
@@ -23,7 +23,7 @@ Când te afli fără semnal într-o destinație exotică, urmează acești pași
 
 <p align="center">
     <img src="{{ site.baseurl }}/images/roaming/ios-settings-cellular-options.png"/>
-    <img src="{{ site.baseurl }}/images/roaming/network-mode.png"/>
+    <img src="{{ site.baseurl }}/images/roaming/network-mode.jpg"/>
 </p>
 
 2. Schimbă tipul preferat de rețea
