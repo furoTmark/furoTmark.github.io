@@ -14,7 +14,6 @@ In the first example, the query is made with `Any()`, but EF interprets the quer
 <p align="center">
     <img src="{{ site.baseurl }}/images/ef-optimization/ef_unoptimized.PNG"/>
 </p>
-Screenshot 2024-08-02 125833.png
 
 After checking the SQL value that shows what the EF will execute against the DB, we can experiment with different ways to write the query. Rewriting this example to `Contains()` generated a much simpler SQL for our case, hence better performance.
 
