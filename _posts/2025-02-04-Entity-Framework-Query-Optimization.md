@@ -26,6 +26,6 @@ After checking the SQL value that shows what the EF will execute against the DB,
 ## Best Practices for Query Optimization in Entity Framework
 1. **Use Projections:** Avoid retrieving entire entities if only specific fields are needed. Use `.Select()` to retrieve only the necessary data.
 2. **Filter at the Database Level:** Whenever possible, apply filters directly in the query rather than retrieving data and filtering in memory.
-**3. Be Mindful of Lazy Loading:** Lazy loading can cause performance issues due to multiple round trips to the database. Consider eager loading (using .Include()) when you know related data will be needed.
+3. **Be Mindful of Lazy Loading:** Lazy loading can cause performance issues due to multiple round trips to the database. Consider eager loading (using .Include()) when you know related data will be needed.
 4. **Use AsNoTracking for Read-Only Data:** If the data you're retrieving won't be updated in the current context, using .AsNoTracking() can improve performance because EF doesn't need to track changes.
 5. **Benchmark and Profile:** Always measure performance changes after optimizations. Use profiling tools to identify slow queries and bottlenecks.
