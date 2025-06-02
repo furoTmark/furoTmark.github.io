@@ -34,7 +34,7 @@ tags: Electric Gas Car Fuel cost calculator
   </label><br><br>
 
   <label>Electricity price (price/kWh):
-    <input type="number" id="electricPrice" value="14" step="0.01">
+    <input type="number" id="electricPrice" value="1.24" step="0.01">
   </label><br><br>
 
   <label>Fuel usage (L/100km):
@@ -122,8 +122,8 @@ tags: Electric Gas Car Fuel cost calculator
       }
 
       document.getElementById("result").innerHTML = `
-        <p>Electric cost per 100 km: <strong>${electricCost.toFixed(2)} RON</strong></p>
-        <p>Gas cost per 100 km: <strong>${fuelCost.toFixed(2)} RON</strong></p>
+        <p>Electric cost per 100 km: <strong>${electricCost.toFixed(2)}</strong></p>
+        <p>Gas cost per 100 km: <strong>${fuelCost.toFixed(2)}</strong></p>
         <p>${cheaper}</p>
       `;
 
