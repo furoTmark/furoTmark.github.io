@@ -52,3 +52,5 @@ remote_theme: fongandrew/hydeout
 
 hydeout:
   repo: https://furotmark.github.io
+
+include: [".well-known"]
