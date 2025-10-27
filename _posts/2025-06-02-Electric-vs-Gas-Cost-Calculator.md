@@ -2,7 +2,7 @@
 layout: post
 title: Electric vs Gas Car Cost Calculator
 comments: true
-tags: Electric Gas Car Fuel cost calculator
+tags: electric gas car fuel cost calculator
 ---
 <head>
   <style>

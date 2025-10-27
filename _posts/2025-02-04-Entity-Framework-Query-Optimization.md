@@ -2,7 +2,7 @@
 layout: post
 title: Entity Framework Query Optimization
 comments: true
-tags: Enity Framework EF query optimization dotnet c#
+tags: enity-framework ef query optimization dotnet c#
 ---
 
 Entity Framework (EF) is a powerful Object-Relational Mapping (ORM) framework for .NET applications. It simplifies data manipulation, but without proper query optimization, EF can lead to suboptimal performance. This post explores two examples of EF query optimization in C# to enhance application efficiency and response times.
