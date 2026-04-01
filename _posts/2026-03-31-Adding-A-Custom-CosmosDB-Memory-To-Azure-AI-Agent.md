@@ -5,6 +5,10 @@ comments: true
 tags: python ai Azure CosmosDB Cosmos db memory agent foundry
 ---
 
+<p align="center">
+    <img src="{{ site.baseurl }}/images/ai-custom-memory/ai-memory.png"/>
+</p>
+
 Before the introduction of the Azure Foundry Memory feature (which, at the time of writing, is still in preview), I needed to design a memory solution for my clients’ agents. The goal was to allow agents to share memory across scenarios and to provide a global memory containing basic business knowledge. Since multiple agents were working on various use cases for the same business, a shared memory accessible to all agents for each user was a practical approach.
 
 The implementation should be agent-agnostic, meaning that if we switch to a different provider or model, we will not have issues with existing memory data.
