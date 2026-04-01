@@ -3,6 +3,7 @@ layout: post
 title: Setup LangChain with Azure Foundry (new) model
 comments: true
 tags: azure foundry ai langchain agent llm python
+image: /images/azure-foundry/models.png
 ---
 
 The documentations on the Langchain site and also on the Microsoft site seems to be outdated with the introduction of the Azure Foundry (new) interface.

@@ -3,6 +3,7 @@ layout: post
 title: Using an Agent Engine AI Agent from dotnet c#
 comments: true
 tags: code google ai vertex agent engine dotnet c#
+image: /images/vertex-ai/vertexailogo.png
 ---
 
 <p align="center">

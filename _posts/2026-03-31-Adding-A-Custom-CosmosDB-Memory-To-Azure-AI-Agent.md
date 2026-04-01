@@ -3,6 +3,7 @@ layout: post
 title: Adding a custom CosmosDB memory to Azure AI Agent
 comments: true
 tags: python ai Azure CosmosDB Cosmos db memory agent foundry
+image: /images/ai-custom-memory/ai-memory.png
 ---
 
 <p align="center">
