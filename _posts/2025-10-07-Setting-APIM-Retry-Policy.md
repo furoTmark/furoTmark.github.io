@@ -1,8 +1,10 @@
 ---
 layout: post
 title: How to Set a Retry Policy in Azure API Management (APIM)
+date: 2025-10-07
 comments: true
 tags: azure apim api-gateway retry-policy azure-api-management
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyipwefcg2k"
 ---
 
 Sometimes requests are denied due to many reasons (like 429 Too Many Request) and it is wise to just retry. The retry can be set on multiple levels, in code (with polly), in service level or in api gateway with a simple policy. In this post I will focus on setting the retry on the Azure Api Gateway.

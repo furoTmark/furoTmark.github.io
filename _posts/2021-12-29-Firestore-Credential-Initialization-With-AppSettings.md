@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Firestore Credential Initialization With AppSettings
+date: 2021-12-29
 comments: true
 tags: c# firestore firebase dotnet net google credential authentication
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyiq2rk2c2s"
 ---
 
 Using Firestore to store data for a C# project is a great way to have a free cloud-based database for your project.

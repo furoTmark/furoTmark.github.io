@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Electric vs Gas Car Cost Calculator
+date: 2025-06-02
 comments: true
 tags: electric gas car fuel cost calculator
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyipwwms32r"
 ---
 <head>
   <style>

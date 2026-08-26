@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Jekyll Tag Generator for Github Pages
+date: 2018-12-21
 comments: true
 tags: powershell windows tag-generator
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyiq5z3jo2x"
 ---
 
 Long Qian has a great [blog post](http://longqian.me/2017/02/09/github-jekyll-tag/) about how to put tags on Github pages.

@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Add Git Bash To Visual Studio Top Bar
+date: 2020-06-05
 comments: true
 tags: vs visual studio menu git bash menu-bar bar shortcut visual-studio
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyiq4x6jr2c"
 ---
 
 <p align="center">

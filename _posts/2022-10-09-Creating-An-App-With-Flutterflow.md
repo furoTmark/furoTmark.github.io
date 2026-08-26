@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating an App with Flutterflow
-comments: true
+date: 2022-10-09
 tags: flutterflow flutter app ios android cross
 image: /images/flutterflow/actionFlow.png
 ---

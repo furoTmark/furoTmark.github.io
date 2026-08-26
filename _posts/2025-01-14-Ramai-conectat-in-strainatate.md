@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Ajustarea setărilor de rețea în destinații exotice
+date: 2025-01-14
 comments: true
 tags: digi rcs rds network 3g 4g 5g
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyipxzwlp2x"
 ---
 
 [RO]

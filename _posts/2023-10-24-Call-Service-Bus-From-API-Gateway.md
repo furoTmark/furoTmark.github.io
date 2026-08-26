@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Calling Azure Service Bus from Azure API Management Service
+date: 2023-10-24
 comments: true
 tags: azure service bus api gateway management service queue topic subscription apim
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyipz5rrb2c"
 ---
 
 Azure API Management Service (APIM) can seamlessly integrate with Azure Service Bus, allowing you to send messages to both `queues` and `topics`, including their respective `subscriptions`. To achieve this integration, a few configurations and authentication steps are necessary, ensuring a secure and efficient communication channel between your API Gateway and Service Bus resources.

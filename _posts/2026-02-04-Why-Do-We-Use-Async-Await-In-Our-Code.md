@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why do we use async-await in our Code
-comments: true
+date: 2026-02-04
 tags: code async await asynchronous concurrency parallelism 
 image: /images/async-sync/sync-async.png
 ---

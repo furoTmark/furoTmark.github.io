@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Thread Message History in Azure AI Foundry with Python
-comments: true
+date: 2025-09-23
 tags: azure ai foundry message history thread python sdk
 image: /images/azure-foundry/image.png
 ---

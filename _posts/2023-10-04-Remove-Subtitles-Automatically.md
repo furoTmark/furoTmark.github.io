@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Remove subtitles automatically from video files
+date: 2023-10-04
 comments: true
 tags: mkv video mkvmerge shell bash mkvtoolnix raspberry plex sub subtitles inotifywait 
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyipzp4ig2x"
 ---
 
 Shell scripts still rule!

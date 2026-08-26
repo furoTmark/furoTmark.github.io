@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Update Asp.NET Core 3.1 create-react-app project to .NET 5
+date: 2021-04-16
 comments: true
 tags: asp dotnet 3.1 5 framework update react app create nuget docker memory npm images buster runtime sdk core alpine linux
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyiq3v22p2g"
 ---
 
 Updating a Asp.NET Core application to a new version of .NET is a relatively straightforward experience. 

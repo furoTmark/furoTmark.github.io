@@ -1,8 +1,10 @@
 ---
 layout: post
 title: ASP.NET SPA Templates Proxy Changes From .NET 5 to .NET 6, .NET 7, and On
+date: 2023-05-04
 comments: true
 tags: asp.net dotnet proxy spa template react angular
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyiq2a7h52c"
 ---
 
 ## Key Takeaways

@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Uno Platform development gotcha's
+date: 2021-10-24
 comments: true
 tags: uno platform cross platform dotnet framework app android ios apple
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyiq3d7q72x"
 ---
 
 In the past month, I played around with uno platform. If you don't know about the uno platform, it is a way to create cross-platform applications with .NET.

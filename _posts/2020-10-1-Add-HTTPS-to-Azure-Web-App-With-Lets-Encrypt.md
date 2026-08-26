@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Add Https to Azure Web App with Let's Encrypt
+date: 2020-10-01
 comments: true
 tags: windows https azure web app lets let encrypt secure certbot certificate cert
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyiq4g6ij2e"
 ---
 
 You have deployed a web app docker container to Azure Web App service. Now you want to enable Https for the web application. 

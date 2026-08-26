@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Configuring Caddy v2 Server with Plex and Transmission
-comments: true
+date: 2023-01-04
 tags: caddy server reverse proxy plex transmission config
 image: /images/caddy/caddy-plex-transmission.png
 ---

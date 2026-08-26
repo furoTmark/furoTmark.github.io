@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setup LangChain with Azure Foundry (new) model
-comments: true
+date: 2025-12-12
 tags: azure foundry ai langchain agent llm python
 image: /images/azure-foundry/models.png
 ---

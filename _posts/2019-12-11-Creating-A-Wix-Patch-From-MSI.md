@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Creating a Wix Installer Patch from MSI
+date: 2019-12-11
 comments: true
 tags: windows wix installer msi patch melt wxs msp
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mtyiq5hutg2c"
 ---
 
 Creating patches for minor upgrades can be a real pain. The documentation for MsiMps.exe/PatchWiz.dll or WiX patching is missing a lot of detail and the error messages the tools give back are not enough. The responses and fixes are scattered on the internet or on the WiX mailing lists.
