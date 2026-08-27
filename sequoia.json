@@ -1,15 +1,20 @@
 {
+  "publicDir": "./public",
+  "outputDir": "./dist",
+  "pathPrefix": "/posts",
+  "publishContent": true,
+  "removeIndexFromSlug": false,
+  "stripDatePrefix": true,
+  "autoSync": true,
   "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
   "siteUrl": "https://furotmark.github.io",
   "contentDir": "./_posts",
   "imagesDir": "./images",
-  "outputDir": "./dist",
-  "stripDatePrefix": true,
   "frontmatter": {
-    "coverImage": "image"
+    "publishDate": "date",
+    "coverImage": "at-image"
   },
   "publicationUri": "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.publication/3mtyhqnluhb2m",
-  "publishContent": true,
   "bluesky": {
     "enabled": true,
     "maxAgeDays": 999999

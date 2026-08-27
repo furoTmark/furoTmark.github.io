@@ -4,6 +4,8 @@ title: Getting Thread Message History in Azure AI Foundry with Python
 date: 2025-09-23
 tags: azure ai foundry message history thread python sdk
 image: /images/azure-foundry/image.png
+at-image: /images/azure-foundry/image.png
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mu2e6wdcu42x"
 ---
 
 When building an agent with Azure AI Foundry, you’ll often need to look back at the conversation so far. Whether you’re debugging, showing it for reference, or implementing agent “memory” fetching thread message history is essential.

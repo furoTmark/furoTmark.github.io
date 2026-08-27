@@ -4,6 +4,8 @@ title: Setup LangChain with Azure Foundry (new) model
 date: 2025-12-12
 tags: azure foundry ai langchain agent llm python
 image: /images/azure-foundry/models.png
+at-image: /images/azure-foundry/models.png
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mu2e6vikav2k"
 ---
 
 The documentations on the Langchain site and also on the Microsoft site seems to be outdated with the introduction of the Azure Foundry (new) interface.

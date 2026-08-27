@@ -4,6 +4,8 @@ title: Why do we use async-await in our Code
 date: 2026-02-04
 tags: code async await asynchronous concurrency parallelism 
 image: /images/async-sync/sync-async.png
+at-image: /images/async-sync/sync-async.png
+atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mu2e6uxqqi2r"
 ---
 
 
