@@ -1,6 +1,7 @@
 {% if page.comments != false %}
   <section class="comments">
     <h2>Comments</h2>
-    {% include disqus.html %}
+    <sequoia-comments></sequoia-comments>
+    <script type="module" src="/assets/js/sequoia-comments.js"></script>
   </section>
 {% endif %}
