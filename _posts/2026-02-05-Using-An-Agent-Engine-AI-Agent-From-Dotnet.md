@@ -4,6 +4,7 @@ title: Using an Agent Engine AI Agent from dotnet c#
 date: 2026-02-05
 tags: code google ai vertex agent engine dotnet c#
 image: /images/vertex-ai/vertexailogo.png
+at-image: /images/vertex-ai/vertexailogo.png
 atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mu2e6ug5fu2g"
 ---
 
