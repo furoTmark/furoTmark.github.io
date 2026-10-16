@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Did I Mention You Have No Excuse for Skipping Regression Tests Anymore
-date: 2026-03-31
+date: 2026-10-16
 tags: [testing, regression, ui, playwright, rambling]
 atUri: "at://did:plc:be2rwmqqn7ek4o4mdnvb7hnb/site.standard.document/3mxyooi55jh2s"
 ---
