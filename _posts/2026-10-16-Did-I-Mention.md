@@ -28,7 +28,7 @@ Ok, just open it in the browser and let the agent take each test page and rewrit
 
 Ok, now just setup an action that will run after you deployed or daily or when you need it.  
 Set it up to test with multiple browsers, multiple devices, multiple screen sizes.  
-Check if it's green. (It is never green)  
+Check if it's green. (It is never <span style="color: red;">green</span>)  
 If so, then celebrate because you can have more confidence in your work.  
 If not, then get the multitude of reports, traces, screenshots and videos to debug and see what changed. (Or to give to AI to see what gives)  
 
@@ -37,6 +37,6 @@ Take that 1h or so to review the tests if they are working as they should and do
 This will create a good base for the next tests.  
 
 ????? - Profit  
-Kidding, get ready for always RED Reports, because something's always wrong...  
+Kidding, get ready for always <span style="color: red;">RED Reports</span>, because something's always wrong...  
 
 Bonus: [How to Generate Tests in Playwright with the VS Code Extension](https://www.youtube.com/watch?v=5XIZPqKkdBA)
